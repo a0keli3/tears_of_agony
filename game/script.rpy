@@ -7,9 +7,9 @@ init python:
 
 
 
-define main_bro = Character('[viname]', color="#2881aa", cps=25)
-define sister = Character('Ангелина',color="#cb2cb9", cps=25)
-define friend_max = Character('Макс', color ="#2b264b", cps = 25) 
+define main_bro = Character('[viname]', color="#c7c7c7", cps=25)
+define sister = Character('Ангелина',color="#c7c7c7", cps=25)
+define friend_max = Character('Макс', color ="#c7c7c7", cps = 25) 
 
 
 # Вместо использования оператора image можете просто
