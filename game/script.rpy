@@ -1,29 +1,16 @@
-﻿
-# Игра начинается здесь:
-label start:
-    'Для начала выберите ваш пол'
-    menu:
-        'мужчина':
-            $ pronoun = 1
-        'женщина':
-            $ pronoun = 0
+﻿label start:
 
-
-    $ viname = renpy.input('Введите ваше имя')
-
+    # ВВОД ИМЕНИ (без выбора пола)
+    $ viname = renpy.input('Введите ваше имя, игра идет от мужского лица', 'Андрей')
+    
     if not viname:
-        if pronoun == 1:
-            $ viname = 'Алексей'
-        elif pronoun == 0:
-            $ viname = 'Мария'
-
+        $ viname = 'Андрей'
+    
     call check_name
-
+    
+    # Если сработала пасхалка с Гошей
     if gosha_67 == True:
         jump sixseven
-        return
-
-    jump chapter1
-
- 
-   
+    
+    # Старт пролога
+    jump prologue
