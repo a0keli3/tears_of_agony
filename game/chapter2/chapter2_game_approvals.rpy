@@ -9,7 +9,6 @@ label chapter2_game_approvals:
 
     'Странно. Обычно она только мешает. А сегодня... хочет помочь?'
 
-    # ИНИЦИАЛИЗАЦИЯ
     python:
         stars = 0
         mistakes = 0
@@ -19,10 +18,8 @@ label chapter2_game_approvals:
         game_over = False
         last_result = None
     
-    # ВЫЗОВ ЭКРАНА
     call screen minigame_approvals_screen
     
-    # РЕЗУЛЬТАТ (stars считаются через action, как одобренные)
     if stars >= 9:
         'Последняя заявка. Ставлю подпись. Всё. Сделано.'
         main_bro 'Чёрт... Я сделал это.'

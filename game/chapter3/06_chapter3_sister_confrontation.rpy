@@ -4,7 +4,7 @@ label chapter3_sister_confrontation:
     scene kitchen_night_smoke
     'Сестра встаёт. Подходит ко мне. Садится рядом. Берёт за руку.'
 
-    sister 'Андрей. Я знаю. Я знаю про неё.'
+    sister '[viname]. Я знаю. Я знаю про неё.'
     main_bro 'Про кого?'
     sister 'Про ту, кого здесь нет. Про твою... тень.'
 
@@ -24,7 +24,6 @@ label chapter3_sister_confrontation:
     sister 'Просто сижу и говорю. А она молчит.'
     sister 'Но кажется, что слышит.'
 
-    # ВЫБОР — ПРИЗНАТЬСЯ ПОЛНОСТЬЮ ИЛИ ОСТАВИТЬ В ТАЙНЕ
     menu:
         'Рассказать сестре про Милану.':
             $ helped_sister = True
@@ -40,7 +39,7 @@ label chapter3_sister_confrontation:
             $ apathy += 2
             main_bro 'Нам пора спать. Завтра трудный день.'
             'Встаю. Ухожу в комнату. Не оборачиваюсь.'
-            sister 'Андрей...'
+            sister '[viname]...'
             main_bro 'Спокойной ночи, Ангел.'
 
     jump chapter3_climax

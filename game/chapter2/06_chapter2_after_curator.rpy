@@ -2,7 +2,7 @@
 
 label chapter2_after_curator:
 
-    scene open_space_evening
+    scene open_space_dark
     'Офис к вечеру. Окна темнеют. Люди уходят.'
 
     main_bro 'Я сижу за столом. Смотрю в одну точку. За окном — серое небо.'
@@ -43,4 +43,4 @@ label chapter2_after_curator:
             'Кристина уходит. Её шаги затихают.'
             main_bro 'Я остаюсь один. Снова. Как всегда.'
 
-    jump chapter2_meet_sister
+    jump chapter2_office_egor_varya

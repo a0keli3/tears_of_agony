@@ -1,5 +1,4 @@
 
-
 label chapter2_meet_sister:
 
     scene street_evening_rain

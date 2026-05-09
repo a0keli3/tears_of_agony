@@ -1,4 +1,4 @@
-#  глобальные изменения или какие-то штучки
+#--------------------глобальные изменения или какие-то штучки---------
 init python:
     def flash_text(message, duration=2.5, size=60):
         renpy.show('flash_screen', what=Text(message, size=size, color='#FFFFFF', text_align=0.5, xalign=0.5, yalign=0.5), zorder=1000, layer='screens')
@@ -6,7 +6,6 @@ init python:
         renpy.hide('flash_screen', layer='screens')
 
 init python:
-    # Функция для мини-игры, чтобы Ren'Py не ругался тут
     def process_approval(choice):
         pass
 
@@ -27,3 +26,17 @@ default trust_kristina = 0      # доверие к Кристине
 default met_curator = False     # встретил ли куратора
 default helped_sister = False    # помог ли сестре
 default embraced_alter = False   # обнял ли Альтер эго
+
+# -------------доверие к новым нпсишкам
+default egor_trust = 0      # доверие к Егору (0-5)
+default lenya_trust = 0     # доверие к Лёне (0-3)
+default varya_trust = 0     # доверие к Варе (0-6)
+default kola_friendship = 0 # дружба с Колей (0-4)
+
+#--------------секретные триггеры (для концовок и скрытых сцен)
+default secret_egor_varya_photo_unlocked = False
+default secret_varya_poems_unlocked = False
+default secret_lenya_roof_visited = False
+default secret_cafe_night_visited = False
+default secret_key_office = False
+default secret_egor_varya_photo_copied = False

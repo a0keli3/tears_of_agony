@@ -24,4 +24,4 @@ label chapter3:
     'Она права. Но я всё равно одеваюсь.'
     main_bro 'Тишина. Только шорох ткани и её дыхание.'
 
-    jump chapter3_office_slow
+    jump chapter3_varya_home
