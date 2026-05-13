@@ -1,8 +1,6 @@
 
 label chapter4_ending:
-
-    # ===== СТРАННЫЕ КОНЦОВКИ (проверяются первыми) =====
-    
+ 
     # 1. Бред Альтер эго (зарубил всех)
     if embrace_alter and apathy >= 7 and (secret_key_office or egor_trust >= 3):
         jump ending_delirium
@@ -21,15 +19,15 @@ label chapter4_ending:
     if lenya_trust >= 3 and apathy <= 4 and not embrace_alter:
         jump ending_lenya
     
-    # 5. Егор (Гитхаб, без примирения с Варей)
+    # 5. Егор (Гитхаб)
     if egor_trust >= 4 and apathy <= 4 and not embrace_alter:
         jump ending_egor
     
-    # 6. Варя (стихи, без примирения с Егором)
+    # 6. Варя (стихи)
     if varya_trust >= 5 and apathy <= 3 and not embrace_alter:
         jump ending_varya
     
-    # 7. Варя и Егор (история с двух сторон — НЕ примирение)
+    # 7. Варя и Егор
     if varya_trust >= 4 and egor_trust >= 3 and apathy <= 3 and not embrace_alter:
         jump ending_varya_egor
     
