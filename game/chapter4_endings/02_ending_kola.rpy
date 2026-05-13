@@ -1,5 +1,5 @@
 label ending_kola:
-    scene office_final
+    scene boss_office
     'Прошёл месяц. Я уволился из офиса.'
     'Начальник не удивился. Даже не спросил почему.'
     boss 'Жаль. Ты был... надёжным.'
