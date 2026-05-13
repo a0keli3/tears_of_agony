@@ -1,7 +1,7 @@
 
 label chapter1_cafe_kola:
 
-    scene cafe_inside
+    scene cafe_exterior
     'По пути на работу я замечаю новую вывеску. «Корги Хаус». Раньше здесь был продуктовый.'
     main_bro 'Кафе с собаками? В нашем районе?'
 
