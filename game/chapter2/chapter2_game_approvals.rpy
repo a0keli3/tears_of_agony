@@ -9,6 +9,7 @@ label chapter2_game_approvals:
 
     'Странно. Обычно она только мешает. А сегодня... хочет помочь?'
 
+    # ИНИЦИАЛИЗАЦИЯ ПЕРЕМЕННЫХ ДЛЯ МИНИ-ИГРЫ
     python:
         stars = 0
         mistakes = 0
@@ -17,7 +18,9 @@ label chapter2_game_approvals:
         time_left = 45
         game_over = False
         last_result = None
+        mini_confidence = 50.0 
     
+
     call screen minigame_approvals_screen
     
     if stars >= 9:
