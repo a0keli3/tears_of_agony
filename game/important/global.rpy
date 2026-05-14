@@ -28,15 +28,15 @@ default helped_sister = False    # помог ли сестре
 default embraced_alter = False   # обнял ли Альтер эго
 
 # -------------доверие к новым нпсишкам
-default egor_trust = 0      # доверие к Егору (0-5)
+default sergy_trust = 0      # доверие к Сергейу (0-5)
 default lenya_trust = 0     # доверие к Лёне (0-3)
-default varya_trust = 0     # доверие к Варе (0-6)
+default alice_trust = 0     # доверие к Варе (0-6)
 default kola_friendship = 0 # дружба с Колей (0-4)
 
 #--------------секретные триггеры (для концовок и скрытых сцен)
-default secret_egor_varya_photo_unlocked = False
-default secret_varya_poems_unlocked = False
+default secret_sergy_alice_photo_unlocked = False
+default secret_alice_poems_unlocked = False
 default secret_lenya_roof_visited = False
 default secret_cafe_night_visited = False
 default secret_key_office = False
-default secret_egor_varya_photo_copied = False
+default secret_sergy_alice_photo_copied = False

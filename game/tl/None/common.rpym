@@ -211,7 +211,7 @@ translate None strings:
 
     # renpy/common/00action_file.rpy:47
     old "{#month}January"
-    new "{#month}Января"
+    new "{#month}ЯнАлиса"
 
     # renpy/common/00action_file.rpy:47
     old "{#month}February"

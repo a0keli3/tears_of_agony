@@ -71,4 +71,4 @@ label chapter1_cafe_lenya:
 
     main_bro 'Лёня... Странный. Но не противный. И... Он как будто понимает.'
 
-    jump chapter1_office_egor
+    jump chapter1_office_sergy

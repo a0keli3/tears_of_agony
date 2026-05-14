@@ -43,4 +43,4 @@ label chapter2_after_curator:
             'Кристина уходит. Её шаги затихают.'
             main_bro 'Я остаюсь один. Снова. Как всегда.'
 
-    jump chapter2_office_egor_varya
+    jump chapter2_office_sergy_alice

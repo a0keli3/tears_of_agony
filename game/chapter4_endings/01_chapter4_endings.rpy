@@ -2,7 +2,7 @@
 label chapter4_ending:
  
     # 1. Бред Альтер эго (зарубил всех)
-    if embrace_alter and apathy >= 7 and (secret_key_office or egor_trust >= 3):
+    if embrace_alter and apathy >= 7 and (secret_key_office or sergy_trust >= 3):
         jump ending_delirium
     
     # 2. Тишина (убить себя или всех) — только если найден ключ
@@ -11,30 +11,30 @@ label chapter4_ending:
     
     # ===== КОНЦОВКИ С NPC (высокое доверие) =====
     
-    # 3. Коля (корги-терапия)
+    # 3. Коля
     if kola_friendship >= 4 and apathy <= 3 and not embrace_alter:
         jump ending_kola
     
-    # 4. Лёня (крыша мира)
+    # 4. Лёня
     if lenya_trust >= 3 and apathy <= 4 and not embrace_alter:
         jump ending_lenya
     
-    # 5. Егор (Гитхаб)
-    if egor_trust >= 4 and apathy <= 4 and not embrace_alter:
-        jump ending_egor
+    # 5. Сергей
+    if sergy_trust >= 4 and apathy <= 4 and not embrace_alter:
+        jump ending_sergy
     
-    # 6. Варя (стихи)
-    if varya_trust >= 5 and apathy <= 3 and not embrace_alter:
-        jump ending_varya
+    # 6. Алиса
+    if alice_trust >= 5 and apathy <= 3 and not embrace_alter:
+        jump ending_alice
     
-    # 7. Варя и Егор
-    if varya_trust >= 4 and egor_trust >= 3 and apathy <= 3 and not embrace_alter:
-        jump ending_varya_egor
+    # 7. Алиса и Сергей
+    if alice_trust >= 4 and sergy_trust >= 3 and apathy <= 3 and not embrace_alter:
+        jump ending_alice_sergy
     
     # ===== ОСНОВНЫЕ КОНЦОВКИ (из пролога) =====
     
     # 8. Ни с кем не подружился — все считают странным
-    if egor_trust <= 1 and varya_trust <= 1 and kola_friendship <= 1 and lenya_trust <= 1 and not embrace_alter:
+    if sergy_trust <= 1 and alice_trust <= 1 and kola_friendship <= 1 and lenya_trust <= 1 and not embrace_alter:
         jump ending_stranger
     
     # 9. Принятие
